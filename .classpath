@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/temp/spigot-api-1.20.4-R0.1-20240401.061315-111.jar" sourcepath="F:/temp/spigot-api-1.20.4-R0.1-20240401.061315-111-source.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/F:/temp/spigot-api-1.20.4-R0.1-20240401.061315-111-javadoc.jar!/"/>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

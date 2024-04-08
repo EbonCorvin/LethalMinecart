@@ -1,0 +1,16 @@
+name: LethalMinecart
+main: org.eboncorvin.lethalminecart.LethalMinecartPlugin
+version: 1.0.0
+api-version: 1.16
+author: EbonCorvin
+description: Make the minecart lethal
+commands:
+ lethalminecart:
+  aliases: [lm]
+  description: Set the value of the variable, variables are max_damage, fatal_speed and harmful_speed
+  usage: |
+   /<command> [variable] [value]
+   Example: /<command> max_damage <number>
+   Example: /<command> fatal_speed <number>
+   Example: /<command> harmful_speed <number>
+  
