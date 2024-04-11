@@ -7,10 +7,14 @@ description: Make the minecart lethal
 commands:
  lethalminecart:
   aliases: [lm]
-  description: Set the value of the variable, variables are max_damage, fatal_speed and harmful_speed
+  description: Set the value of max_damage, fatal_speed and harmful_speed
   usage: |
    /<command> [variable] [value]
    Example: /<command> max_damage <number>
    Example: /<command> fatal_speed <number>
    Example: /<command> harmful_speed <number>
+ lethalminecartvar:
+  aliases: [lmvar]
+  description: Check the effective value of the variables
+  usage: /<command>
   
